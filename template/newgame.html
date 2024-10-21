@@ -12,11 +12,11 @@
 				</ul>
 
 				<div class='search'>
-					<input type="text" class="search" ng-model="SearchText" ng-tranny="'searchbar_placeholer'" autofocus />
+					<input type="text" class="search" ng-model="SearchText" ng-tranny="'searchbar_placeholder'" autofocus />
 				</div>
 			</div>
 
-			<div class="scrollable" style="margin: 0px; top: 0px; left: 200px">
+			<div class="scrollable" style="margin: 0px; top: 0px; left: 350px">
 
 				<ul class="category" ng-repeat="category in MapList | orderBy:'order'" ng-hide="category.maps.length == 0" ng-show="CurrentCategory == category.category">
 
@@ -48,7 +48,7 @@
 					</div>
 				</div>
 
-				<div class="scrollable" style="margin: 10px; bottom: 80px; top: 32px">
+				<div class="scrollable" style="margin: 10px; bottom: 80px; top: 40px">
 
 					<div class='control' ng-show="MaxPlayers > 1">
 						<label ng-Tranny="'server_name'"></label>

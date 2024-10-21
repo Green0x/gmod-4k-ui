@@ -1,8 +1,8 @@
 
 UL.category LI.mapicon IMG.thumbnail
 {
-	width: 128px;
-	height: 128px;
+	width: 256px;
+	height: 256px;
 }
 UL.category LI.mapicon IMG.favtoggle
 {
@@ -37,9 +37,9 @@ UL.category LI.mapicon IMG.faviconremove:hover
 UL.category LI.mapicon
 {
 	position: relative;
-	width: 128px;
+	width: 256px;
 	text-align: center;
-	font-size: 10px;
+	font-size: 20px;
 	padding: 6px;
 	margin: 2px;
 	cursor: pointer;
@@ -53,8 +53,8 @@ UL.category LI.mapicon span
 
 .maplist
 {
-	right: 256px;
-	top: 16px;
+	right: 350px;
+	top: 16px;	
 	left: 16px;
 	bottom: 16px;
 	position: absolute;
@@ -65,7 +65,7 @@ UL.category LI.mapicon span
 
 .maplist .controls
 {
-	width: 190px;
+	width: 325px;
 	position: absolute;
 	left: 10px;
 	top: 10px;
@@ -82,7 +82,7 @@ gamesettings
 {
 	right: 16px;
 	top: 16px;
-	width: 226px;
+	width: 320px;
 	bottom: 16px;
 	position: absolute;
 	background-color: white;
@@ -105,7 +105,7 @@ gamesettings bottom button
 	padding: 10px;
 	position: absolute;
 	margin: 10px;
-	font-size: 20px;
+	font-size: 30px;
 	width: 77%;
 }
 
@@ -126,9 +126,9 @@ gamesettings select
 .dropdown .label
 {
 	border-radius: 3px;
-	height: 28px;
+	height: 40px;
 	padding-left: 10px;
-	line-height: 28px;
+	line-height: 40px;
 	cursor: pointer;
 
 	font-weight: bold;
@@ -187,7 +187,7 @@ gamesettings .control
 
 gamesettings .control LABEL
 {
-	font-size: 11px;
+	font-size: 20px;
 	color: #666;
 }
 
@@ -216,11 +216,11 @@ gamesettings .control-numeric
 
 gamesettings .control-numeric input[type=text]
 {
-	width: 44px;
+	width: 50px;
 	margin-right: 8px;
 	padding: 2px;
 	float: right;
-	height: 20px;
+	height: 30px;
 }
 
 .controls .search
@@ -229,7 +229,7 @@ gamesettings .control-numeric input[type=text]
 	bottom: 0px;
 	left: 0;
 	right: 0;
-	padding: 4px;
+	padding: 10px;
 	width: 100%;
 	box-sizing: border-box;
 }
@@ -252,11 +252,11 @@ gamesettings .control-numeric input[type=text]
 	background-color: #ddd;
 	margin: 0;
 	margin-bottom: 5px;
-	font-size: 11px;
+	font-size: 20px;
 	font-weight: bold;
 	border-radius: 3px;
 	color: #555;
-	height: 26px;
+	height: 45px;
 	cursor: pointer;
 	position: relative;
 }
@@ -286,7 +286,7 @@ gamesettings .control-numeric input[type=text]
 	padding: 2px 5px;
 	margin: 5px;
 	color: #aaa;
-	font-size: 10px;
+	font-size: 20px;
 	overflow: hidden;
 	white-space: nowrap;
 }

@@ -7,7 +7,7 @@ BODY
 	-webkit-user-select: none;
 	margin: 0;
 	padding: 0;
-	font-size: 12px;
+	font-size: 25px;
 	-webkit-font-smoothing: antialiased;
 	outline: none;
 }
@@ -15,7 +15,7 @@ BODY
 INPUT
 {
 	-webkit-user-select: auto;
-	font-size: 12px;
+	font-size: 16px;
 }
 
 INPUT.searchbox, INPUT.gm_search
@@ -86,7 +86,7 @@ UL.category LI.icon
 
 .scrollable
 {
-	overflow: auto;
+	overflow: scroll;
 	right: 0px;
 	top: 0px;
 	left: 0px;
@@ -253,7 +253,7 @@ loading
 	background-color: rgba( 0, 0, 0, 1.0 );
 	border-radius: 3px;
 	cursor: pointer;
-	z-index: 1000;
+	/*z-index: 0;*/
 }
 
 .news

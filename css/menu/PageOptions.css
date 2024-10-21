@@ -4,7 +4,7 @@ DIV.page DIV.options
 	position: absolute;
 	left: 0;
 	top: 0;
-	width: 300px;
+	width: 500px;
 	bottom: 0px;
 	padding-top: 50px;
 	padding-left: 50px;
@@ -41,7 +41,7 @@ DIV.page DIV.options UL LI
 
 DIV.page DIV.options, DIV.page DIV.options A
 {
-	font-size: 23px;
+	font-size: 40px;
 	letter-spacing: -1.0px;
 	text-decoration: none;
 	color: #fff;
